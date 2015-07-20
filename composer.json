@@ -1,7 +1,7 @@
 {
-    "name": "doctrine/data-fixtures",
+    "name": "muchar/data-fixtures",
     "type": "library",
-    "description": "Data Fixtures for all Doctrine Object Managers",
+    "description": "Fork from Data Fixtures for all Doctrine Object Managers. Fixed schema dependencies",
     "keywords": ["database"],
     "homepage": "http://www.doctrine-project.org",
     "license": "MIT",
