@@ -128,7 +128,7 @@ class ORMPurger implements PurgerInterface
                 continue;
             }
 
-            $orderedTables[] = $class->getQuotedTableName($platform);
+            $orderedTables[] = $class->getTableName($platform);
         }
 
         foreach($orderedTables as $tbl) {
